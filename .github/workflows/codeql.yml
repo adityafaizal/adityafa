@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript', 'typescript' ] # Ganti dengan bahasa yang sesuai
+        language: ['javascript' ] # Ganti dengan bahasa yang sesuai
 
     steps:
     - name: Checkout repository
